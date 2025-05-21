@@ -14,6 +14,6 @@ echo "First Movie: ${MOVIES[0]}"
 echo "Third Movie: ${MOVIES[2]}"
 
 
-echo "All Movie: ${MOVIES[@]}" ##When we need to print all values of the array we usually use @ symbol...
+echo "All Movies: ${MOVIES[@]}" ##When we need to print all values of the array we usually use @ symbol...
 
 ##Here $varible == ${variable} both are equal only 

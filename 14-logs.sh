@@ -25,6 +25,7 @@ then
     echo -e "$R Error please run the script with root access... $N" | tee -a $LOG_FILE
     exit 1 ##give other than 0 upto 127 for failures
 else
+
     echo "You are running with root access..." | tee -a $LOG_FILE
 fi
 
